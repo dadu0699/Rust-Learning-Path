@@ -73,6 +73,7 @@ fn main() {
 
     // Initialize variables
     let (mut index, mut order) = (1, 1);
+
     // Declare the car type and initial values
     let mut car: Car;
     let mut miles = 1000; // Start used cars with 1,000 miles
@@ -159,6 +160,7 @@ fn main() {
         // Increment "order" by 1, and "miles" by 1,000
         order = order + 1;
         miles = miles + 1000;
+
         // Adjust the index for the car details
         // Order 11 cars, use index range of 0 -- 4, then repeat from 0
         if index < 4 {
